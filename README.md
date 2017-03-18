@@ -1,2 +1,2 @@
 # Braintree.Forms
-Braintree Plugin for Xamarin.Forms
+Braintree by PayPal Plugin for Xamarin.Forms
