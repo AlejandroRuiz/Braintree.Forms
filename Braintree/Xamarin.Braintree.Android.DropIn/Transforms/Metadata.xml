@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+	<remove-node path="/api/package[@name='com.braintreepayments.api.dropin.adapters']/class[@name='VaultedPaymentMethodsAdapter']" />
+	<attr path="/api/package[@name='com.braintreepayments.api.dropin']" name="managedName">Xamarin.Braintree.Api.DropIn</attr>
+	<attr path="/api/package[@name='com.braintreepayments.api.dropin.adapters']" name="managedName">Xamarin.Braintree.Api.DropIn.Adapters</attr>
+	<attr path="/api/package[@name='com.braintreepayments.api.dropin.interfaces']" name="managedName">Xamarin.Braintree.Api.DropIn.Interfaces</attr>
+	<attr path="/api/package[@name='com.braintreepayments.api.dropin.utils']" name="managedName">Xamarin.Braintree.Api.DropIn.Utils</attr>
+	<attr path="/api/package[@name='com.braintreepayments.api.dropin.view']" name="managedName">Xamarin.Braintree.Api.DropIn.View</attr>
+</metadata>

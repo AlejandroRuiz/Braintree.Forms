@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+	<attr
+        path="/api/package[@name='com.paypal.android.sdk.onetouch.core.config']/class[@name='Recipe']/method[@name='getThis' and count(parameter)=0]"
+        name="managedName">
+		Instance
+	</attr>
+	<attr path="/api/package[@name='com.paypal.android.sdk.onetouch.core']" name="managedName">Xamarin.PayPal.Android.OneTouch.Core</attr>
+	<attr path="/api/package[@name='com.paypal.android.sdk.onetouch.core.base']" name="managedName">Xamarin.PayPal.Android.OneTouch.Core.Base</attr>
+	<attr path="/api/package[@name='com.paypal.android.sdk.onetouch.core.config']" name="managedName">Xamarin.PayPal.Android.OneTouch.Core.Config</attr>
+	<attr path="/api/package[@name='com.paypal.android.sdk.onetouch.core.encryption']" name="managedName">Xamarin.PayPal.Android.OneTouch.Core.Encryption</attr>
+	<attr path="/api/package[@name='com.paypal.android.sdk.onetouch.core.enums']" name="managedName">Xamarin.PayPal.Android.OneTouch.Core.Enums</attr>
+	<attr path="/api/package[@name='com.paypal.android.sdk.onetouch.core.exception']" name="managedName">Xamarin.PayPal.Android.OneTouch.Core.Exception</attr>
+	<attr path="/api/package[@name='com.paypal.android.sdk.onetouch.core.fpti']" name="managedName">Xamarin.PayPal.Android.OneTouch.Core.Fpti</attr>
+	<attr path="/api/package[@name='com.paypal.android.sdk.onetouch.core.network']" name="managedName">Xamarin.PayPal.Android.OneTouch.Core.Network</attr>
+	<attr path="/api/package[@name='com.paypal.android.sdk.onetouch.core.sdk']" name="managedName">Xamarin.PayPal.Android.OneTouch.Core.Sdk</attr>
+</metadata>

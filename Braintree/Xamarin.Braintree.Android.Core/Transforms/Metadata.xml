@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+	<attr path="/api/package[@name='com.braintreepayments.api']" name="managedName">Xamarin.Braintree.Api</attr>
+	<attr path="/api/package[@name='com.braintreepayments.api.core']" name="managedName">Xamarin.Braintree.Api.Core</attr>
+	<attr path="/api/package[@name='com.braintreepayments.api.exceptions']" name="managedName">Xamarin.Braintree.Api.Exceptions</attr>
+	<attr path="/api/package[@name='com.braintreepayments.api.interfaces']" name="managedName">Xamarin.Braintree.Api.Interfaces</attr>
+	<attr path="/api/package[@name='com.braintreepayments.api.internal']" name="managedName">Xamarin.Braintree.Api.Internal</attr>
+</metadata>
